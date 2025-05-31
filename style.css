@@ -1,0 +1,73 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : 30/05/2025, 8:07:09 p. m.
+    Author     : Armando Benavides
+*/
+body {
+    font-family: Arial, sans-serif;
+    font-size: 24px; /* Tamaño de Fuente */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    background-color: #f0f0f0;
+}
+
+h1 {
+    font-size: 36px; /* Tamaño de Título */
+    color: #333;
+}
+
+.menu {
+    margin: 20px 0;
+}
+
+.menu button {
+    padding: 10px 20px;
+    font-size: 24px;
+    margin: 5px;
+    background-color: #00aae4;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.menu button:hover {
+    background-color: #45a049;
+}
+
+.ejercicio-form {
+    margin: 20px 0;
+}
+
+.ejercicio-form label {
+    margin-right: 10px;
+}
+
+.ejercicio-form input[type="text"],
+.ejercicio-form input[type="number"] {
+    width: 400px; /* ancho Cuadro de texto */
+    padding: 10px;
+    font-size: 24px; /* Tamaño Fuente cuadro de texto */
+    border: 2px solid #333;
+    border-radius: 5px;
+}
+
+.ejercicio-form button {
+    padding: 10px 20px;
+    font-size: 24px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.ejercicio-form button:hover {
+    background-color: #45a049;
+}
+
